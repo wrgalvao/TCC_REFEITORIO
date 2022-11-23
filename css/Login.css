@@ -87,16 +87,6 @@ form
     width: 180px;
   }
 }
-@media (min-width: 400px) and (max-width: 415px)
-{
-  img#LOGO
-  {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 120%);
-    width: 180px;
-  }
-}
 /*
 @media (min-width: 413px) and (max-width: 415px)
 {
