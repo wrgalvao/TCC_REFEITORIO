@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="shortcut icon" href="IMAGENS/logo unifesspa_transparente.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../css/formulario.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Formulário de Avaliação</title>
+</head>
+<header class="cabecalho">
+  <img id="logoUnifesspa" src="../imagens/LOGO UNIFESSPA.png" alt="logo Unifesspa">
+  <h3>AVALIE NOSSO REFEITÓRIO</h3>
+</header>
+<body>
+<form method="post" id="avaliacao" action="FORMPHP.php">
+  <div id="paginaFormulario">
+  <div id="coluna-1">
+
+      <p>PRATO PRINCIPAL</p>
+      <div class="container-opcoes">
+        <div class="container-opcao">
+          <input type="radio" name="inputRadioPratoPrincipal" id="" value="" class="inputRadio">
+          <label for="">RUIM</label>
+        </div>
+
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioPratoPrincipal"  value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioPratoPrincipal" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioPratoPrincipal" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <p>ACOMPANHAMENTO</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioAcompanhamento" value="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioAcompanhamento" value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioAcompanhamento" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioAcompanhamento" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <p>GUARNIÇÃO</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioGuarnicao" id="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioGuarnicao" value="3" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioGuarnicao" value="4" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioGuarnicao" value="5" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <p>SALADA</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioSalada" id="" value="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioSalada" value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioSalada" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioSalada" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <p>SOBREMESA</p>
+    <div class="container-opcoes">
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioSobremesa" id="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioSobremesa" value="3" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioSobremesa" value="4" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioSobremesa" value="5" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+  </div>
+  <div id="coluna-2">
+
+    <p>DIGA-NOS O QUE VOCÊ ACHOU DO VALOR DA REFEIÇÃO</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioValorRefeicao" id="" value="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioValorRefeicao" value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioValorRefeicao" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioValorRefeicao" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <p>QUAL VALOR VOCÊ ACHARIA JUSTO ?</p>
+      <input type="number" min="0" name="opiniaoValorJustoRefeicao" class="campoTexto">
+    </div>
+
+    <p>ACESSIBILIDADE</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioAcessibilidade" id="" value="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioAcessibilidade" value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioAcessibilidade" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioAcessibilidade" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <p>TEMPO DE ESPERA NA FILA</p>
+    <div class="container-opcoes">
+
+      <div class="container-opcao">
+        <input type="radio" name="inputRadioTempoFila" id="" value="" class="inputRadio">
+        <label for="">RUIM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_tres" name="inputRadioTempoFila" value="" class="inputRadio">
+        <label for="estrela_tres">REGULAR</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_quatro" name="inputRadioTempoFila" value="" class="inputRadio">
+        <label for="estrela_quatro">BOM</label>
+      </div>
+
+      <div class="container-opcao">
+        <input type="radio" id="estrela_cinco" name="inputRadioTempoFila" value="" class="inputRadio">
+        <label for="estrela_cinco">EXCELENTE</label>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <p>SUGESTÃO</p>
+      <textarea name="" id="" cols="30" rows="4" class="campoTexto"></textarea>
+
+    </div>
+  </div>
+  <br>
+  </div>
+  <input type="submit" name="submit" id="submit" value="ENVIAR" class="botao">
+</form>
+</body>
+</html>

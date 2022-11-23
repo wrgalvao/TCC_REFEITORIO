@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#logoUnifesspa
+{
+  position: relative;
+  left: 50%;
+  transform: translate(-63%, -0%);
+  width: 120px;
+}
+#coluna-1
+{
+  margin-right: 40px;
+
+}
+#coluna-2
+{
+  margin-left: 40px;
+
+}
+.cabecalho
+{
+  border-bottom: 1px black solid;
+}
+.cabecalho h3
+{
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 10pt;
+  font-weight: bold;
+}
+form
+{
+  width: 900px;
+  margin: auto;
+  font-size: 10pt;
+  font-family: 'Open Sans', sans-serif;
+}
+#paginaFormulario
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.container-opcoes
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.botao
+{
+  position: relative;
+  left: 47%;
+  transform: translate(-58%, -0%);
+  width: 250px;
+  background-color: rgba(120,191,58,1);
+  padding: 10px;
+  border-radius: 06px;
+  width: 15%;
+  color: white;
+  font-size: 09pt;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.campoTexto
+{
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(166, 166, 166, 0.4);
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.container
+{
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+}
+.container-opcao
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.inputRadio
+{
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.boxAvaliacao
+{
+  text-align: center;
+}
+p
+{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
