@@ -120,3 +120,23 @@ form
   border-radius: 6px;
   color: white;
 }
+@media (min-width: 359px) and (max-width: 415px)
+{
+  .box
+  {
+    width: 93%;
+  }
+  .cabecalho h3
+  {
+    width: 100%;
+    font-size: 09pt;
+  }
+  #logoUnifesspa
+  {
+    width: 120px;
+  }
+  form
+  {
+    width: 100%;
+  }
+}
