@@ -54,7 +54,7 @@ form
 {
   position: relative;
   left: 47%;
-  transform: translate(-58%, -0%);
+  transform: translate(-58%, 0%);
   width: 250px;
   background-color: rgba(120,191,58,1);
   padding: 10px;
@@ -117,7 +117,6 @@ p
 }
 @media (min-width: 359px) and (max-width: 415px)
 {
-  
   #logoUnifesspa
   {
     width: 100px;
@@ -152,6 +151,7 @@ p
   }
   #campoDeSugestao
   {
+    width: 74%;
     height: 40px;
   }
 }
