@@ -140,6 +140,7 @@ p
   .botao
   {
     width: 30%;
+    transform: translate(-63%, 0%);
   }
   .labelInputRadio
   {
