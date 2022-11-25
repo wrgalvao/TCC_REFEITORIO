@@ -106,3 +106,52 @@ p
   font-weight: bold;
   text-align: center;
 }
+#campoDeSugestao
+{
+  width: 62%;
+  height: 67px;
+}
+.botao:hover
+{
+  cursor: pointer;
+}
+@media (min-width: 359px) and (max-width: 415px)
+{
+  
+  #logoUnifesspa
+  {
+    width: 100px;
+  }
+  .cabecalho h3
+  {
+    font-size: 08pt;
+  }
+  form
+  {
+    width: 100%;
+  }
+  #coluna-1
+  {
+    margin-right: 0px;
+  }
+  #coluna-2
+  {
+    margin-left: 0px;
+  }
+  .botao
+  {
+    width: 30%;
+  }
+  .labelInputRadio
+  {
+    font-size: 07pt;
+  }
+  p
+  {
+    font-size: 08pt;
+  }
+  #campoDeSugestao
+  {
+    height: 40px;
+  }
+}
