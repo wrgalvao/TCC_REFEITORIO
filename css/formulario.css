@@ -140,9 +140,14 @@ p
     transform: translate(-50%, 0%);
     margin-top: 30x;
   }
+  .container-opcao
+  {
+    text-align: center;
+  }
   .labelInputRadio
   {
     font-size: 07pt;
+    text-align: center;
   }
   p
   {
