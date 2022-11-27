@@ -95,10 +95,6 @@ form
   margin-bottom: 10px;
   font-family: 'Open Sans', sans-serif;
 }
-.boxAvaliacao
-{
-  text-align: center;
-}
 p
 {
   font-family: 'Open Sans', sans-serif;
@@ -151,6 +147,11 @@ p
   p
   {
     font-size: 07pt;
+  }
+  .inputRadio
+  {
+    margin-left: 0px;
+    margin-right: 0px;
   }
   #campoDeSugestao
   {
