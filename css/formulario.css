@@ -176,17 +176,13 @@ p
   {
     margin-bottom: 35px;
   }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
   .botao
   {
     margin-top: 0px;
   }
   .campoTexto
   {
-    margin-bottom: 98px;
+    margin-bottom: 65px;
   }
   #logoUnifesspa
   {
@@ -197,6 +193,14 @@ p
     margin-top: 0px;
     margin-bottom: 0px;
     height: 35px;
+  }
+  #coluna-1
+  {
+    margin: 0px;
+  }
+  #coluna-2
+  {
+    margin: 0px;
   }
 }
 @media (min-width: 767px) and (max-width: 819px)
@@ -209,17 +213,13 @@ p
   {
     margin-bottom: 35px;
   }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
   .botao
   {
     margin-top: 0px;
   }
   .campoTexto
   {
-    margin-bottom: 98px;
+    margin-bottom: 65px;
   }
   #logoUnifesspa
   {
@@ -242,10 +242,6 @@ p
   {
     margin-bottom: 35px;
   }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
   .botao
   {
     margin-top: 0px;
@@ -257,12 +253,13 @@ p
   #campoDeSugestao
   {
     margin-top: 0px;
+    margin-bottom: 0px;
     height: 35px;
   }
   .campoTexto
   {
     margin-top: 0px;
-    margin-bottom: 99px;
+    margin-bottom: 65px;
   }
 }
 @media (min-width: 539px) and (max-width: 766px)
