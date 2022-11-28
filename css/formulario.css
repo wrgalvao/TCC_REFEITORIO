@@ -138,7 +138,7 @@ p
   {
     width: 30%;
     transform: translate(-50%, 0%);
-    margin-top: 30x;
+    margin: 0px;
   }
   .labelInputRadio
   {
@@ -147,152 +147,19 @@ p
   }
   p
   {
-    font-size: 07pt;
+    font-size: 08pt;
   }
   #campoDeSugestao
   {
     width: 74%;
-    height: 35px;
+    height: 40px;
   }
   .boxAvaliacao
-  {
-    margin-bottom: 30px;
-  }
-  .campoTexto
-  {
-    margin-bottom: 24px;
-  }
-}
-@media (min-width: 819px) and (max-width: 911px)
-{
-  form
-  {
-    width: 100%;
-  }
-  .container-opcao
   {
     margin-bottom: 35px;
   }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
-  .botao
-  {
-    margin-top: 0px;
-  }
-  .campoTexto
-  {
-    margin-bottom: 98px;
-  }
-  #logoUnifesspa
-  {
-    transform: translate(-70%, -0%);
-  }
-  #campoDeSugestao
-  {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 35px;
-  }
-}
-@media (min-width: 767px) and (max-width: 819px)
-{
-  form
-  {
-    width: 100%;
-  }
-  .container-opcao
+  .container
   {
     margin-bottom: 35px;
   }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
-  .botao
-  {
-    margin-top: 0px;
-  }
-  .campoTexto
-  {
-    margin-bottom: 98px;
-  }
-  #logoUnifesspa
-  {
-    transform: translate(-70%, -0%);
-  }
-  #campoDeSugestao
-  {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 38px;
-  }
 }
-@media (min-width: 911px) and (max-width: 1023px)
-{
-  form
-  {
-    width: 100%;
-  }
-  .container-opcao
-  {
-    margin-bottom: 35px;
-  }
-  .boxAvaliacao
-  {
-    margin-bottom: 50px;
-  }
-  .botao
-  {
-    margin-top: 0px;
-  }
-  #logoUnifesspa
-  {
-    transform: translate(-70%, -0%);
-  }
-  #campoDeSugestao
-  {
-    margin-top: 0px;
-    height: 35px;
-  }
-  .campoTexto
-  {
-    margin-top: 0px;
-    margin-bottom: 99px;
-  }
-}
-@media (min-width: 539px) and (max-width: 766px)
-{
-  form
-  {
-    width: 100%;
-  }
-  .container-opcoes
-  {
-    margin-bottom: 25px;
-  }
-  #coluna-1
-  {
-    margin-right: 0px;
-  }
-  .botao
-  {
-    margin-top: 0px;
-  }
-  .campoTexto
-  {
-    margin-top: 0px;
-    margin-bottom: 22px;
-  }
-  #logoUnifesspa
-  {
-    transform: translate(-70%, -0%);
-  }
-  #campoDeSugestao
-  {
-    margin-top: 0px;
-    height: 35px;
-  }
-}
-
