@@ -152,7 +152,7 @@ p
   }
   p
   {
-    font-size: 07pt;
+    font-size: 08pt;
   }
   .inputRadio
   {
@@ -162,24 +162,9 @@ p
   #campoDeSugestao
   {
     width: 74%;
-    height: 35px;
+    height: 40px;
   }
   .boxAvaliacao
-  {
-    margin-bottom: 30px;
-  }
-  .campoTexto
-  {
-    margin-bottom: 24px;
-  }
-}
-@media (min-width: 819px) and (max-width: 911px)
-{
-  form
-  {
-    width: 100%;
-  }
-  .container-opcao
   {
     margin-bottom: 35px;
   }
