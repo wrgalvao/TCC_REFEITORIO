@@ -138,7 +138,16 @@ p
   {
     width: 30%;
     transform: translate(-50%, 0%);
+<<<<<<< HEAD
     margin: 0px;
+=======
+    margin-top: 30x;
+  }
+  .container-opcao
+  {
+    text-align: center;
+    justify-content: center;
+>>>>>>> parent of 54c8597 (COMMIT)
   }
   .labelInputRadio
   {
