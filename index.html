@@ -3,102 +3,22 @@
 <head>
   <link rel="shortcut icon" href="IMAGENS/logo unifesspa_transparente.svg" type="image/x-icon">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/cadastro.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CADASTRO</title>
+  <title>TELA DE LOGIN</title>
+  <link rel="stylesheet" type="text/css" href="css/Login.css">
 </head>
-<header class="cabecalho">
-  <img id="logoUnifesspa" src="../imagens/LOGO UNIFESSPA.png">
-  <h3>PÁGINA DE CADASTRO</h3>
-</header>
 <body>
-<form method="post" id="cadastroUsuario" action="CADASTRO.php">
-  <fieldset class="box"><legend class="titulosBox">CADASTRO DE LOGIN</legend>
-    <div class="inputBox">
-      <input placeholder="NOME DE USUÁRIO" type="text" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <input placeholder="SENHA" type="text" class="campoInput">
-    </div>
-  </fieldset>
-  <fieldset class="box"><legend class="titulosBox">IDENTIFICAÇÃO DO USUÁRIO</legend>
-    <div class="inputBox">
-      <input placeholder="NOME COMPLETO" type="text" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <input placeholder="EMAIL" type="email" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <input placeholder="MATRÍCULA / OPCIONAL" type="text" class="campoInput">
-    </div>
-
-    <div class="sexo">
-      <p>SEXO:</p>
-      <div class="input-opcao">
-        <input name="sex" type="radio" id="inmasc" value="masculino">
-        <label for="inmasc" class="labelSexo">MASCULINO</label>
-      </div>
-      <div class="input-opcao">
-        <input name="sex" type="radio" id="infem" value="feminino">
-        <label for="infem" class="labelSexo">FEMININO</label>
-      </div>
-      <div class="input-opcao">
-        <input name="sex" type="radio" id="infem" value="feminino">
-        <label for="inoutros" class="labelSexo">OUTROS</label>
-      </div>
-    </div>
-    <label id="labelDataNascimento" for="dataNascimento">DATA DE NASCIMENTO</label>
-    <input id="dataNascimento" name="dataNascimento" type="date" class="campoInput">
-  </fieldset>
-  <fieldset class="box"><legend class="titulosBox">ENDEREÇO DO USUÁRIO</legend>
-    <div class="inputBox">
-      <input placeholder="LOGRADOURO" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <input placeholder="NÚMERO" type="number" class="campoInput" min="0">
-    </div>
-    <div class="inputBox">
-      <input placeholder="BAIRRO" type="text" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <input placeholder="CIDADE" type="text" class="campoInput">
-    </div>
-    <div class="inputBox">
-      <label for="estado">ESTADO</label>
-      <select name="estado" id="estado">
-        <option>RJ</option>
-        <OPTION>SP</OPTION>
-        <OPTION>PA</OPTION>
-        <OPTION>CE</OPTION>
-        <OPTION>AM</OPTION>
-        <option>RS</option>
-        <OPTION>GO</OPTION>
-        <OPTION>DF</OPTION>
-        <OPTION>AC</OPTION>
-        <OPTION>PE</OPTION>
-        <OPTION>PR</OPTION>
-        <OPTION>TO</OPTION>
-        <option>SC</option>
-        <OPTION>AL</OPTION>
-        <OPTION>AP</OPTION>
-        <OPTION>BA</OPTION>
-        <OPTION>ES</OPTION>
-        <OPTION>MT</OPTION>
-        <OPTION>MS</OPTION>
-        <OPTION>MG</OPTION>
-        <OPTION>PB</OPTION>
-        <OPTION>PI</OPTION>
-        <OPTION>RO</OPTION>
-        <OPTION>RR</OPTION>
-        <OPTION>SE</OPTION>
-        <OPTION>MA</OPTION>
-      </select>
-    </div>
-    <div class="botoes">
-      <input type="submit" value="CADASTRAR" name="botaoCadastrar" class="botao">
-      <input type="submit" value="SAIR" name="botaoSair" class="botao">
-    </div>
-  </fieldset>
-</form>
+<img id="LOGO" src="imagens/LOGO UNIFESSPA.png" alt="logo unifesspa">
+<div class="box-login">
+  <h1>Login</h1>
+  <form action="login.php" method="POST">
+    <input type="text" placeholder="USUÁRIO" class="campoInput">
+    <br><br>
+    <input type="password" placeholder="SENHA" class="campoInput">
+    <br><br>
+    <input type="submit" value="ENTRAR" name="submitEntrar" class="botao">
+    <input type="submit" value="CADASTRE-SE" name="submitCadastro" class="botao">
+  </form>
+</div>
 </body>
 </html>
